@@ -78,7 +78,27 @@ Now Github has been connected to c9.
 
 ## Workflow & Commands
 
+##### What is `git status`?
+
+`git status` is a command used to check whether a file is in the staging area. It also shows if the file is ready or has been commite already. 
+
+##### What is `git add`?
+`git add` is a command used to add files to the staging area. `git add .` is used to add all files to the stage to be committed. `git add --all` is used  to add all renamed or deleted files to the stage to be committed.  
+
+##### What is `git commit`? 
+
+`git commit -m ""` is the command used to save changes in the local repository.  
+
+The Message in the quotes should be revelent and related to the edits made. This is good for orginization of work. 
+
+##### What is `git push`? 
+
+`git push` is used to upload the aditons made in a file to its remote, in this case github.   
+
+In order for `git push` a connection between the local and remote must be made. View section "Creating a Repository on Github" on how to do this. 
+
 
 
 ---
 ## Rolling Back Changes
+
