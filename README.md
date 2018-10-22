@@ -93,7 +93,7 @@ The Message in the quotes should be revelent and related to the edits made. This
 
 ##### What is `git push`? 
 
-`git push` is used to upload the aditons made in a file to its remote, in this case github.   
+`git push` is used to upload the additons made in a file to its remote, in this case github.   
 
 In order for `git push` a connection between the local and remote must be made. View section "Creating a Repository on Github" on how to do this. 
 
@@ -101,4 +101,27 @@ In order for `git push` a connection between the local and remote must be made. 
 
 ---
 ## Rolling Back Changes
+
+##### Undo Edit 
+
+
+
+##### Undo Add 
+In the case where you add an edit to the staging area and then decide that you want to undo it, use `git reset HEAD filename`.   
+ 
+ By doing this you will take that specific file out of the staging area. 
+ 
+##### Undo Commit
+
+There a tons of situtations where you will want to undo a previous commit made.    
+* `git reset HEAD~1` works by removing the commit and removing it from the staging area but still keeping its edits. 
+* `git reset --soft HEAD~1` works by removing the commit but still keeping the file's edits and in the staging area. 
+* `git reset --hard HEAD~1` this command will remove the commit, take it off the staging area AND undo the edits. In the end the file will look like the previous commit made. 
+
+
+##### Undo Push
+
+you just ran git push, sending your changes to GitHub, now you realize there’s a problem with one of those commits. You’d like to undo that commit. 
+
+`git log` 
 
