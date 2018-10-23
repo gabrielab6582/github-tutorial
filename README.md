@@ -66,7 +66,9 @@ Now after recording the changes to your _local_. The next step is creating a Rep
 2. click to top right "+" 
 3. Choose new Repository 
 4. name the repository the same name as you repository in c9 (local). 
-5. After pressing the "create repository" button gitbuh brings you to a page like **THIS**
+5. After pressing the "create repository" button github brings you to a page like this ![page](github.png)
+ 
+
 6. At the top there is an option for either an HTTPS or SSH link those the link for the SSH 
 7. Then copy and paste the two links found in the middle of the page to the command line . They should look like this : 
  `git remote add origin git@github.com:gabrielab6582/name.git   ` and 
