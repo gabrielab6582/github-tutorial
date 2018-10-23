@@ -24,8 +24,9 @@ _by Gabriela Bochen_
 
 
 
-1. Open and log into Cloud9 
-2. Open and log into Github
+1. Open and log into Cloud9 If you do not have a github account make sure to do that.  
+2. Open and log into Github. If you do not have a github account make sure to do that. 
+
 4. In Github, open settings and on the left side bar open "SSH and GPG keys"
 5. Press green button "New SSH Key"
 6. Type in title. Make it relavent to your Local 
