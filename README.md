@@ -38,8 +38,8 @@ _by Gabriela Bochen_
 ---
 ## Repository Setup
 ##### Creating a Repository and files on c9
- Before making a directory/repository, the command line must show that you are currently in workspace. It
- should look like this **INSERT IMAGE HERE**   If you are not in Workspace you must use `cd ..` until you reach the worskapce. 
+ Before making a directory/repository, the command line must show that you are currently in workspace. It should look like the image below. If you are not in Workspace you must use `cd ..` until you reach the worskapce.   
+ ![workspace](workspace.png)
  
  When that is done, the directory is ready to be created   
  By using the command `mkdir [INSERT NAME]` you are creating a new directory.   
@@ -103,7 +103,7 @@ In order for `git push` a connection between the local and remote must be made. 
 ## Rolling Back Changes
 
 ##### Undo Edit 
-
+You made an edit and now you want to go back to the pervious edit .Type git status. Read what it says. It should tell you to use `git checkout -- <file>...` This command undo's any edit you made to the file that you changed.
 
 
 ##### Undo Add 
@@ -123,5 +123,5 @@ There a tons of situtations where you will want to undo a previous commit made.
 
 you just ran git push, sending your changes to GitHub, now you realize there’s a problem with one of those commits. You’d like to undo that commit. 
 
-`git log` 
+To undo a push you type `git log` which shows you a log of your previous commits. There will you see the SHA key of your commit. Then you can do `git revert` with the SHA numbers, which undo's your push.
 
