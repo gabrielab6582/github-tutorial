@@ -64,7 +64,7 @@ Now after recording the changes to your _local_. The next step is creating a Rep
 
 1. Go to Github 
 2. click to top right "+" 
-3. Choose "new Repository
+3. Choose "new Repository"
 4."This will make a new repository"
 4. Give the repository the same name as you repository in c9 (local). 
 5. After pressing the "create repository" button github brings you to a page like this ![page](github.png)
