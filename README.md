@@ -33,7 +33,7 @@ _by Gabriela Bochen_
 7. For the "Key": Switch into cloud9 > Press gear icon > SSH keys tab > copy and paste the second SSH Key provided 
 8. Switch back into Github and paste the SSH Key
 9. In Cloud9 open Workspace
-10. In the command line type _"ssh -T git@github.com"_ A message should apprears that says you've successfully authenticated. 
+10. In the command line type _"ssh -T git@github.com"_ A message should apprears that says you've successfully authenticated 
 
 
 ---
@@ -45,17 +45,17 @@ _by Gabriela Bochen_
  When that is done, the directory is ready to be created   
  By using the command `mkdir [INSERT NAME]` you are creating a new directory.   
  
-Next `cd [NAME]`   By doing this, it allows you to move into that directory.   
+Next `cd [NAME]`   By doing this, it allows you to move into that directory you just created.   
 
-Following that, you must use the comand `git init` This will create a repository were you can create, save, store and edit work or files.
+Following that, you must use the command `git init` This will create a repository where you can create, save, store and edit work or files.
 
 Now in this repository you can create a file.   
 The command `touch [NAME]` is to make that file.  
-Open the file and edit as wished.  
+Open the file by using `c9 [filename]` and edit as wished.  
 
-Next, Save add and commit: 
+###### Save, Add and commit: 
 * to Save either press ⌘S or turn on autosave
-* To add `git add .` 
+* To add to the stage use `git add .` or else you wont be able to commit.
 * to commit `git commit -m "[MESSAGE]"`
 
 ##### __Creating a Repository on Github__
@@ -65,15 +65,17 @@ Now after recording the changes to your _local_. The next step is creating a Rep
 
 1. Go to Github 
 2. click to top right "+" 
-3. Choose new Repository 
-4. name the repository the same name as you repository in c9 (local). 
+3. Choose "new Repository"
+4."This will make a new repository"
+4. Give the repository the same name as you repository in c9 (local). 
 5. After pressing the "create repository" button github brings you to a page like this ![page](github.png)
  
 
 6. At the top there is an option for either an HTTPS or SSH link those the link for the SSH 
 7. Then copy and paste the two links found in the middle of the page to the command line . They should look like this : 
- `git remote add origin git@github.com:gabrielab6582/name.git   ` and 
-`git push -u origin master`  
+ `git remote add origin git@github.com:namelastosis/name.git   ` and 
+`git push -u origin master`
+Copy and paste this onto cloud9 one line at a time
 
 Now Github has been connected to c9. 
 
@@ -83,7 +85,7 @@ Now Github has been connected to c9.
 
 ##### What is `git status`?
 
-`git status` is a command used to check whether a file is in the staging area. It also shows if the file is ready or has been commite already. 
+`git status` is a command used to check whether a file is in the staging area. It also shows if the file is ready or has been committed. 
 
 ##### What is `git add`?
 `git add` is a command used to add files to the staging area. `git add .` is used to add all files to the stage to be committed. `git add --all` is used  to add all renamed or deleted files to the stage to be committed.  
@@ -106,7 +108,7 @@ In order for `git push` a connection between the local and remote must be made. 
 ## Rolling Back Changes
 
 ##### Undo Edit 
-You made an edit and now you want to go back to the pervious edit .Type git status. Read what it says. It should tell you to use `git checkout -- <file>...` This command undo's any edit you made to the file that you changed.
+You made an edit and now you want to go back to the pervious edit .Type git status. Read what it says. It should tell you to use `git checkout -- <file>...` This command undoes any edit you made to the file that you changed.
 
 
 ##### Undo Add 
