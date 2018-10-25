@@ -24,9 +24,8 @@ _by Gabriela Bochen_
 
 
 
-1. Open and log into Cloud9 If you do not have a github account make sure to do that.  
-2. Open and log into Github. If you do not have a github account make sure to do that. 
-
+1. Open and log into Cloud9 
+2. Open and log into Github
 4. In Github, open settings and on the left side bar open "SSH and GPG keys"
 5. Press green button "New SSH Key"
 6. Type in title. Make it relavent to your Local 
@@ -127,4 +126,3 @@ There a tons of situtations where you will want to undo a previous commit made.
 you just ran git push, sending your changes to GitHub, now you realize there’s a problem with one of those commits. You’d like to undo that commit. 
 
 To undo a push you type `git log` which shows you a log of your previous commits. There will you see the SHA key of your commit. Then you can do `git revert` with the SHA numbers, which undo's your push.
-
